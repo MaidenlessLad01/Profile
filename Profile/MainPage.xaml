@@ -2,18 +2,55 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Profile.MainPage"
-             Shell.NavBarIsVisible="False">
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="Black">
 
+    <Grid Padding="40"
+          VerticalOptions="Center">
+        <VerticalStackLayout>
+            <Border StrokeThickness="5"
+                    Padding="0"
+                    Margin="0,50,0,0"
+                    Background="Orange"
+                    Stroke="Orange">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20,20,20,20"/>
+                </Border.StrokeShape>
+                <Frame BorderColor="Orange"
+                        HeightRequest="500"
+                        BackgroundColor="MidnightBlue">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0.3*"/>
+                            <RowDefinition Height="0.7*"/>
+                        </Grid.RowDefinitions>
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height=".35*"/>
-            <RowDefinition />
-        </Grid.RowDefinitions>
-        <Frame Grid.Row="0"
-                Background="#FFDAB3">
-            
-        </Frame>
+                        <Label Text="GIUAWDUHAUWIAWD"
+                               Grid.Row="1"
+                               FontSize="Large"
+                               FontFamily="retro"/>
+                        <Label Text="IAWOIWOJIJSALKSJDLK"></Label>
+                    </Grid>
+                </Frame>
+            </Border>
+        </VerticalStackLayout>
+        <Grid Padding="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height=".5*"/>
+                <RowDefinition Height=".5*"/>
+            </Grid.RowDefinitions>
+            <Border WidthRequest="200"
+                    HeightRequest="200"
+                    Stroke="OrangeRed"
+                    Margin="0,-140,0,0"
+                    StrokeThickness="5">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="720,720,720,720"/>
+                </Border.StrokeShape>
+                <Image Source="pixcirc.png"
+                       WidthRequest="200"
+                       HeightRequest="200"/>
+            </Border>
+        </Grid>
     </Grid>
-
 </ContentPage>
