@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2025 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="adult" unicode="&#xe800;" d="M0-132l0 289q0 103 60 177t157 75l330 0q101-2 158-76t57-176l0-289q0-18-18-18l-105 0q-16 0-16 18l0 252q-6 27-27 24t-22-24l0-252q-2-18-19-18l-352 0q-17 0-17 18l0 252q-4 27-26 24t-23-24l0-252q0-18-18-18l-101 0q-18 0-18 18z m186 783q0 82 59 140t140 59q86-4 142-60t59-139q-2-84-61-143t-140-58q-84 2-142 60t-57 141z" horiz-adv-x="762" />
+
+<glyph glyph-name="flag" unicode="&#xe801;" d="M0-79l0 803q68 41 136 51t124-3 112-35 112-43 114-31 124 2 137 59l0-459q-52-53-109-67t-110 1-117 40-124 51-135 35-151-11l0-393-113 0z" horiz-adv-x="859" />
+
+<glyph glyph-name="mail" unicode="&#xe802;" d="M0-29l324 342 176-100 176 100 324-342-1000 0z m0 114l0 414 254-147z m0 503l0 141 1000 0 0-141-500-285z m746-236l254 147 0-414z" horiz-adv-x="1000" />
+
+<glyph glyph-name="heart" unicode="&#xe803;" d="M790 644q70-64 70-156t-70-158l-360-330-360 330q-70 66-70 158t70 156q62 58 151 58t153-58l56-52 58 52q62 58 150 58t152-58z" horiz-adv-x="860" />
+
+<glyph glyph-name="transgender" unicode="&#xf224;" d="M571 832q0 8 6 13t12 5h161q15 0 25-11t11-25v-160q0-8-5-13t-13-5h-36q-8 0-13 5t-5 13v74l-141-142q70-88 70-200 0-124-82-215t-204-104v-74h54q8 0 13-5t5-13v-36q0-8-5-13t-13-5h-54v-53q0-8-5-13t-13-5h-35q-8 0-13 5t-5 13v53h-54q-8 0-13 5t-5 13v36q0 8 5 13t13 5h54v74q-83 8-151 57t-104 125-30 162q9 114 89 198t194 96q66 8 127-11t111-57l142 142h-75q-7 0-12 5t-6 12v36z m-250-696q104 0 177 73t73 177-73 176-177 74-176-74-74-176 74-177 176-73z" horiz-adv-x="857.1" />
+</font>
+</defs>
+</svg>

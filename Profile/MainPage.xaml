@@ -3,33 +3,153 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Profile.MainPage"
              Shell.NavBarIsVisible="False"
-             BackgroundColor="Black">
+             BackgroundImageSource="bg2.png">
 
     <Grid Padding="40"
+          Margin="0"
           VerticalOptions="Center">
         <VerticalStackLayout>
             <Border StrokeThickness="5"
                     Padding="0"
                     Margin="0,50,0,0"
-                    Background="Orange"
-                    Stroke="Orange">
+                    Stroke="MidnightBlue">
                 <Border.StrokeShape>
                     <RoundRectangle CornerRadius="20,20,20,20"/>
                 </Border.StrokeShape>
-                <Frame BorderColor="Orange"
+                <Frame BorderColor="MidnightBlue"
                         HeightRequest="500"
-                        BackgroundColor="MidnightBlue">
-                    <Grid>
+                       Padding="20,0,-10,0"
+                        BackgroundColor="#7F191970">
+                    <Grid Padding="0,0,0,0">
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="0.3*"/>
-                            <RowDefinition Height="0.7*"/>
+                            <RowDefinition Height="0.2*"/>
+                            <RowDefinition Height="0.8*"/>
                         </Grid.RowDefinitions>
 
-                        <Label Text="GIUAWDUHAUWIAWD"
-                               Grid.Row="1"
-                               FontSize="Large"
-                               FontFamily="retro"/>
-                        <Label Text="IAWOIWOJIJSALKSJDLK"></Label>
+                        <Grid Grid.Row="1"
+                              Padding="0,0,0,0"
+                              Margin="0,0,0,0"
+                              >
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width=".2*"/>
+                                <ColumnDefinition Width=".8*"/>
+                            </Grid.ColumnDefinitions>
+                                <!--Name-->
+                            <Image Grid.Row="0" Grid.Column="0"
+                                   Margin="0"
+                                   WidthRequest="30"
+                                   HeightRequest="30"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Center">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="man"
+                                                     Glyph="&#xE800;"
+                                                     Size="30"
+                                                     Color="White"/>
+                                </Image.Source>
+                            </Image>
+                            
+                            <Label Grid.Row="0" 
+                                   Grid.Column="1"
+                                   Text="Cyrile C. Cortes"
+                                   Margin="0,-13,0,0"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Center"
+                                   FontSize="40"
+                                   TextColor="White"/>
+                            <!--Gender-->
+                                <Image Grid.Row="1" Grid.Column="0"
+                                   WidthRequest="30"
+                                   HeightRequest="30"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Center">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="man"
+                                                     Glyph="&#xF224;"
+                                                     Size="30"
+                                                     Color="White"/>
+                                </Image.Source>
+                            </Image>
+                                        
+                            <Label Grid.Row="1" 
+                                   Grid.Column="1"
+                                   Text="Male"
+                                   Margin="0,-13,0,0"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Center"
+                                   FontSize="40"
+                                   TextColor="White"/>
+                            <!--Country-->
+                            <Image Grid.Row="2" Grid.Column="0"
+                                   WidthRequest="30"
+                                   HeightRequest="30"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Center">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="man"
+                                        Glyph="&#xE801;"
+                                        Size="30"
+                                        Color="White"/>
+                                </Image.Source>
+                            </Image>
+                            <Label Grid.Row="2" 
+                                Grid.Column="1"
+                                Text="Philippines"
+                                Margin="0,-13,0,0"
+                                HorizontalOptions="Start"
+                                VerticalOptions="Center"
+                                FontSize="40"
+                                TextColor="White"/>
+                            <!--Email-->
+                            <Image Grid.Row="3" Grid.Column="0"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                HorizontalOptions="Start"
+                                VerticalOptions="Center">
+                                <Image.Source>
+                                    <FontImageSource FontFamily="man"
+                                         Glyph="&#xE802;"
+                                         Size="30"
+                                         Color="White"/>            
+                                </Image.Source>
+                            </Image>
+                            <Label  Grid.Row="3" 
+                                    Grid.Column="1"
+                                    Text="cortesdemaestro@gmail.com"
+                                    Margin="0,-13,0,0"
+                                    HorizontalOptions="Start"
+                                    VerticalOptions="Center"
+                                    FontSize="25"
+                                    TextColor="White"/>
+                            <!--Country-->
+                            <Image Grid.Row="4" Grid.Column="0"
+                                    WidthRequest="30"
+                                    HeightRequest="30"
+                                    HorizontalOptions="Start"
+                                    VerticalOptions="Center">   
+                                <Image.Source>
+                                    <FontImageSource FontFamily="man"
+                                                     Glyph="&#xE803;"
+                                                     Size="30"
+                                                     Color="White"/>
+                                </Image.Source>
+                            </Image>
+                            <Label Grid.Row="4" 
+                                     Grid.Column="1"
+                                     Text="Single"
+                                     Margin="0,-13,0,0"
+                                     HorizontalOptions="Start"
+                                     VerticalOptions="Center"
+                                     FontSize="50"
+                                     TextColor="White"/>
+                        </Grid>
                     </Grid>
                 </Frame>
             </Border>
@@ -41,7 +161,7 @@
             </Grid.RowDefinitions>
             <Border WidthRequest="200"
                     HeightRequest="200"
-                    Stroke="OrangeRed"
+                    Stroke="MidnightBlue"
                     Margin="0,-140,0,0"
                     StrokeThickness="5">
                 <Border.StrokeShape>
